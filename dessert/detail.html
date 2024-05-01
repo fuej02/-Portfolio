@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <script src="js/bootstrap.js"></script>
+    <style>
+        #banner{
+    background-image: url(images/banner.jpg);
+    background-size: cover;
+    height: 300px;
+    margin-top: 50px;
+}
+.text{
+            color: orange;
+            font-weight: bolder;
+        }
+    </style>
+    
+</body>
+<!-- navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">甜食●Sweet</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="index1.html">首頁</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="about1.html">關於我們</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="product1.html">產品介紹</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+    <!--banner-->
+    <div id="banner"></div>
+
+  <!-- 圖片 -->
+  <div class="container mb-3">
+    <div class="row">
+        <h3 class="text my-3">| 產品細節Detail</h3>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+    <div class="col-lg">
+        <img src="images/cake05.jpg" class="img-fluid">
+    </div>
+    <div class="col">
+        <h3>鄉村檸檬乳酪塔</h3>
+        <p>採用紐西蘭小鄉村濃郁的乳酪香味搭配清涼檸檬口感是鄉村中最具影響力的一道甜點。</p>
+        <p>價錢：79 元 / 片</p>
+        <p>分類：<span  class="badge bg-primary me-2">蛋糕</span><span class="badge bg-warning text-dark me-2">水果</span></p>
+        <!-- 表單 -->
+        <form class="row align-content-center">
+            <div class="col-9">
+              <label for="inlineFormInputGroupUsername">填寫數量</label>
+              <div class="input-group">
+                <input type="text" class="form-control" id="inlineFormInputGroupUsername" placeholder="請填寫數量">
+              </div>
+            </div>
+            <div class="col-3">
+                <button type="submit" class="btn btn-primary">訂購</button>
+              </div>
+    </div>
+    </div>
+</div>  
+
+       <!--footer-->
+       <div class="row bg-dark text-white pt-2">
+        <p class="text-center">© 2023 All Rights Reserved.S</p>
+    </div>
+
