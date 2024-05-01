@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script src="js/bootstrap.js"></script>
+    <script src="js/jquery-3.6.4.min.js"></script>
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <style>
+        #toTop {
+            display: none;
+            text-decoration: none;
+            position: fixed;
+            bottom: 14px;
+            right: 3%;
+            overflow: hidden;
+            width: 40px;
+            height: 40px;
+            border: none;
+            text-indent: 100%;
+            background: url("to-top1.png") no-repeat 0px 0px;
+            }
+        
+        .bg-color{
+            background-color: #428bca;
+        }
+        .padding-line{
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <!-- navbar -->
+<nav class="navbar navbar-default bg-color">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu1" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#" style="color: #ffffff;">派大星美食網站</a>
+        </div>
+        <div class="collapse navbar-collapse" id="menu1">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#">首頁 <span class="sr-only">(current)</span></a></li>
+                <li><a href="#" style="color: #ffffff;">新增文章</a></li>
+                <li><a href="#" style="color: #ffffff;">管理後臺</a></li>
+                <li><a href="#" style="color: #ffffff;">新增日誌</a></li>
+            </ul>
+            <form class="navbar-form navbar-right">
+                <div class="form-group has-feedback">
+                    <input type="text" class="form-control" placeholder="輸入美食或餐廳">
+                    <span class="glyphicon glyphicon-search form-control-feedback" aria-hidden="true"></span>
+                </div>
+                <button type="submit" class="btn btn-default">搜尋</button>
+            </form>
+        </div>
+    </div>
+</nav>            
+
+    <!-- 標題 -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h1>日光美食部落</h1>
+                <P class="lead">找美食、拍美食、吃美食、寫美食，趕快加入我們的行列吧！</P>
+            </div>
+        </div>
+    </div>
+<hr>    
+    <!-- 圖文內容 -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8">
+                <h3>老屋·慢食·樂埔町Leputing</h3>
+                <p>2017年7月by<a href="#">小丸子</a></p>
+                <img src="leput1.jpg" class="img-responsive">
+                <p>優雅美麗的樂埔町是一座精心修復的古老日式建物，在新舊交融的陳設裡，流露出濃濃的懷舊風情，行走其中彷彿穿越時空的迴廊。</p>
+                <hr>
+                <img src="leput2.jpg" class="img-responsive">
+                <p>質樸雅致的餐具與擺設延續了樂埔町一貫的靜雅風情，在其間用餐，讓人暫時忘了繁重的壓力，盡情享受閒適的氣氛與美味的餐點。</p>    
+                <hr>
+                <img src="leput3.jpg" class="img-responsive">
+                <p>樂埔町以融合日式調味文化與西式烹調手法的料理，呈現台灣在地美好食材，圖為炭香雞腿佐南瓜泥，嚴選本土育種的馨甜嫩雞，佐以大地賜予的蔬菜根莖類，讓人品嘗到自然鮮甜無負擔。</p>
+                <hr>
+                <div class="text-center">
+                    <a href="#" class="btn btn-info btn-lg">上一篇</a>&nbsp;&nbsp;&nbsp;
+                    <a href="#" class="btn btn-info btn-lg">下一篇</a>
+                </div>
+            </div>
+            <div class="col-md-3 col-lg-offset-1">
+                <div class="panel panel-success">
+                    <div class="panel-heading"><h3>關於我們</h3></div>
+                    <div class="panel-body">
+                        這是由一群愛吃愛玩的部落客所組成的部落格，專門為同好特搜好吃好玩的美食與景點，也歡迎同好與我們一起分享！
+                    </div>
+                </div>
+                <div class="panel panel-info">
+                    <div class="panel-heading"><h3>美食推薦</h3></div>
+                    <div class="panel-body">
+                        <ul class="list-unstyled">
+                            <li><a href="#">1111111</a></li>
+                            <li><a href="#">1111111</a></li>
+                            <li><a href="#">1111111</a></li>
+                            <li><a href="#">1111111</a></li>
+                            <li><a href="#">1111111</a></li>
+                            <li><a href="#">1111111</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="panel panel-warning">
+                    <div class="panel-heading"><h3>廣告連結</h3></div>
+                    <div class="panel-body">
+                        <ul class="list-unstyled">
+                            <li><a href="#">1111111</a></li>
+                            <li><a href="#">1111111</a></li>
+                            <li><a href="#">1111111</a></li>
+                            <li><a href="#">1111111</a></li>
+                            <li><a href="#">1111111</a></li>
+                            <li><a href="#">1111111</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <!-- footer -->
+    <div class="container">
+        <div class="row padding-line">
+            <p>© 2024派大星媒體·<a href="#">·隱私權政策</a>·<a href="#">服務條款</a></p>
+        </div>
+    </div>
+</body>
+</html>
+<!--回頂部動畫開始-->
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},900);
+				});
+			});
+</script>
+<script type="text/javascript">
+		$(document).ready(function() {
+		$().UItoTop({ easingType: 'easeOutQuart' });
+});
+</script>
+<a href="#to-top" id="toTop" style="display: block;">
+	<span id="toTopHover" style="opacity: 1;"></span>
+</a>
+<!--回頂部動畫結束-->
